@@ -1,13 +1,12 @@
-# Dashboard — menú de ejercicios JavaScript
+# Dashboard de ejercicios JavaScript
 
-Menú/portal con enlaces a varios ejercicios de JavaScript y cambio de tema día/noche.
+Menú / portal con enlaces a ejercicios y cambio de tema día/noche.
 
 ## Qué hace
 
-- Banner y navegación “Dashboard / Menú de Ejercicios”
-- Listado de ejercicios (enlaces a demos o páginas)
-- Toggle de tema (valentine / noche) con JS
-- Estilo DaisyUI + Tailwind
+- Banner y navegación de ejercicios
+- Listado de demos
+- Toggle de tema (claro / oscuro)
 
 ## Cómo probarlo
 
@@ -17,13 +16,11 @@ Demo: https://moussijoelle.github.io/dasboard/
 
 ## Cómo lo construí
 
-- HTML + Tailwind browser + DaisyUI (CDN)
-- Lógica de tema en `js/`
-- Imágenes en `img/`
+HTML + Tailwind browser + DaisyUI. El tema se gestiona en `js/`. Imágenes en `img/`.
 
 ## Cómo verificarlo
 
-Sin tests. Cambio el tema y compruebo que los enlaces del menú abren.
+Cambio el tema y abro un par de enlaces del menú.
 
 ---
 
